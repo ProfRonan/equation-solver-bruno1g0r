@@ -22,7 +22,7 @@ elif(grau == 2):
         if(delta < 0):
             print("A equação não possui raizes reais")
         elif(delta == 0):
-            print("A equação possui apenas uma raiz real")
+            print("A equação possui uma raiz real")
             raiz = (-1*b)/(2*a)
             print(round(raiz,2))
         elif(delta > 0):
